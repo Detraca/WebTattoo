@@ -1,3 +1,11 @@
+:root {
+    /*Colores principales de marca*/
+    --mainPurple:#9900CC;
+    --mainWhite:#FFFFCC;
+    --mainSilver:#CCCCCC;
+    --mainBlack:#000000;
+}
+
 *{
     border:0px;
     margin:0px;
