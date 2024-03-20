@@ -12,6 +12,11 @@
     padding:0px;
 }
 
-h1 {
-    color:red;
+.aa {
+    color: var(--mainSilver);
+    align-items: center;
+}
+
+body{
+    background-color: var(--mainBlack);
 }
