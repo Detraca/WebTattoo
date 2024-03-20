@@ -1,22 +1,31 @@
 :root {
     /*Colores principales de marca*/
-    --mainPurple:#9900CC;
-    --mainWhite:#FFFFCC;
-    --mainSilver:#CCCCCC;
-    --mainBlack:#000000;
+    --colorPurple:#9900CC;
+    --colorWhite:#FFFFCC;
+    --colorSilver:#CCCCCC;
+    --colorBlack:#000000;
 }
 
+/********Ajustes de página********/
 *{
     border:0px;
     margin:0px;
     padding:0px;
 }
 
-.aa {
-    color: var(--mainSilver);
-    align-items: center;
+/********Etiquetas HTML********/
+h1 {
+    color: var(--colorSilver);
+    text-align: center;
+    font-family: modak;
 }
 
 body{
-    background-color: var(--mainBlack);
+    background-color: var(--colorBlack);
+}
+
+/********Clases********/
+@font-face {
+    font-family: modak;
+    src: url(fonts/modak/Modak-Regular.ttf);
 }
