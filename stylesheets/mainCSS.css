@@ -1,0 +1,54 @@
+:root {
+    /*Colores principales de marca*/
+    --colorPurple:#9900CC;
+    --colorWhite:#FFFFCC;
+    --colorSilver:#CCCCCC;
+    --colorBlack:#000000;
+}
+
+.modak-regular {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/********Ajustes de página********/
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+/********Etiquetas HTML********/
+
+body{
+    background-color: var(--colorBlack);
+}
+
+nav {
+    display: block;
+    font-size: 0px;
+}
+  
+h1 {
+    color: var(--colorSilver);
+    text-align: center;
+    font-family: "Modak", "Comic Sans MS", "Comic Sans", cursive, system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+/********Clases********/
+.elementoNav{
+    width: 20%;
+    display: inline-block;
+    background-color: var(--colorPurple);
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color:var(--colorWhite);
+    font-weight: bold;
+}
