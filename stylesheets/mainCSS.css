@@ -32,7 +32,7 @@ body{
 
 nav {
     display: block;
-    /* font-size: 0px; Puesto para evitar espacios entre elementos */
+    font-size: 0px; /* Puesto para evitar espacios entre elementos */
     position: fixed;
     width: 100%;
     top: 0;
