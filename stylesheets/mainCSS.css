@@ -21,14 +21,25 @@
 }
 
 /********Etiquetas HTML********/
+a {
+    color: blue;
+    text-decoration: none; 
+}
 
 body{
-    background-color: var(--colorBlack);
+    background-color: var(--colorBlack);    
 }
 
 nav {
     display: block;
-    font-size: 0px;
+    font-size: 0px; /*Puesto para evitar espacios entre elementos*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+main{
+    margin: 35px;
 }
   
 h1 {
@@ -37,8 +48,10 @@ h1 {
     font-family: "Modak", "Comic Sans MS", "Comic Sans", cursive, system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 80px;
 }
+
+
 
 /********Clases********/
 .elementoNav{
@@ -47,8 +60,48 @@ h1 {
     background-color: var(--colorPurple);
     height: 35px;
     text-align: center;
-    padding-top: 5px;
-    font-size: 18px;
+    font-size: 26px;
     color:var(--colorWhite);
-    font-weight: bold;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Modak;*/
+    box-sizing: border-box;
 }
+
+
+
+
+
+
+#navbar {
+    
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav + a {
+    padding-top: 60px;
+  }
