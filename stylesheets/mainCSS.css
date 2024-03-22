@@ -1,76 +1,96 @@
 :root {
-    /*Colores principales de marca*/
-    --colorPurple:#9900CC;
-    --colorWhite:#FFFFCC;
-    --colorSilver:#CCCCCC;
-    --colorBlack:#000000;
+  /*Colores principales de marca*/
+  --colorPurple: #9900CC;
+  --colorWhite: #FFFFCC;
+  --colorSilver: #CCCCCC;
+  --colorBlack: #000000;
 }
 
-.modak-regular {
-    font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-  
+/* .modak-regular {  
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
 
-/********Ajustes de página********/
-*{
-    border:0px;
-    margin:0px;
-    padding:0px;
+
+/********Selector universal********/
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /********Etiquetas HTML********/
 a {
-    color: var(--colorWhite);
-    text-decoration: none; 
+  color: var(--colorWhite);
+  text-decoration: none;
 }
 
-body{
-    background-color: var(--colorBlack);    
+body {
+  background-color: var(--colorBlack);
 }
 
 nav {
-    display: block;
-    font-size: 0px; /* Puesto para evitar espacios entre elementos */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    border: 1px solid yellow;
-    height: 35px;
+  height: 4vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: block;
+  font-size: 0px;
+  border-top: 1px solid var(--colorWhite);
+  border-bottom: 1px solid var(--colorWhite);
 }
 
-main{
-    margin: 35px;
+nav ul {
+  height: inherit;
 }
-  
+
+nav li {
+  width: 20%;
+  height: inherit;
+  display: inline-block;
+  background-color: var(--colorPurple);
+  color: var(--colorWhite);
+  text-align: center;
+  font-size: 3.2vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+  padding-top: 4vh;
+  height: 96vh;
+  /* background-color: brown; */
+}
+
 h1 {
-    color: var(--colorSilver);
-    text-align: center;
-    font-family: "Modak", "Comic Sans MS", "Comic Sans", cursive, system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
+  color: var(--colorSilver);
+  text-align: center;
+  font-family: "Modak", "Comic Sans MS", "Comic Sans", cursive, system-ui;
+   font-weight: 400;
+  font-size: 8vh;
 }
+
+#seccion1{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 0 / 50%),
+    rgb(0 0 255 / 50%)
+  ), url("../img/tattoostudio.png");
+}
+
+
+/* #section1 img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+} */
 
 
 
 /********Clases********/
-.elementoNav{
-    width: 20%;
-    display: inline-block;
-    background-color: var(--colorPurple);
-    
-    text-align: center;
-    font-size: 26px;
-    color:var(--colorWhite);
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Modak;*/
-    border:0px;
-    margin:0px;
-    padding:0px;
 
-    /* top:50%; */
-}
 
 
 
