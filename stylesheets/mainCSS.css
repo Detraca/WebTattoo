@@ -6,11 +6,11 @@
   --colorBlack: #000000;
 }
 
-/* .modak-regular {  
+.modak-regular {  
   font-family: "Modak", system-ui;
   font-weight: 400;
   font-style: normal;
-} */
+}
 
 
 /********Selector universal********/
@@ -72,16 +72,28 @@ h1 {
 
 #seccion1{
   width: 100vw;
-  height: 100vh;
+  height: 96vh;
   background-image: linear-gradient(
     to bottom,
-    rgb(255 255 0 / 50%),
-    rgb(0 0 255 / 50%)
+    rgb(0 0 0 / 10%),
+    rgb(153 0 204 / 10%)
   ), url("../img/tattoostudio.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position-y: center;
 }
 
+#logo{
+  size: 10vw;
+  margin-left: 6vw;
+  margin-top: 5vh;
+}
+
+#titulo1{
+  color: var(--colorWhite);
+  font-size: 3vw;
+  margin-top: 60vh;
+  margin-left: 3vw;
+}
 
 /* #section1 img {
   width: 100vw;
