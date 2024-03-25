@@ -56,11 +56,9 @@ nav li {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-main {
-  padding-top: 4vh;
+/* main {
   height: 96vh;
-  /* background-color: brown; */
-}
+} */
 
 h1 {
   color: var(--colorSilver);
@@ -68,18 +66,6 @@ h1 {
   font-family: "Modak", "Comic Sans MS", "Comic Sans", cursive, system-ui;
    font-weight: 400;
   font-size: 8vh;
-}
-
-#seccion1{
-  width: 100vw;
-  height: 96vh;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 10%),
-    rgb(153 0 204 / 10%)
-  ), url("../img/tattoostudio.png");
-  background-size: cover;
-  background-position-y: center;
 }
 
 #logo{
@@ -93,6 +79,36 @@ h1 {
   font-size: 3vw;
   margin-top: 60vh;
   margin-left: 3vw;
+}
+
+section{  
+  padding-top: 4vh;
+  width: 100vw;
+}
+
+.seccionIntermedia{
+  height: 96vh;
+}
+
+.seccionFinal{
+  height: 93vh;
+}
+
+#seccion1{
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 10%),
+    rgb(153 0 204 / 10%)
+  ), url("../img/tattoostudio.png");
+  background-size: cover;
+  background-position-y: center;
+}
+
+footer{  
+  width: 100vw;
+  height: 3vh;
+  color: var(--colorWhite);
+  text-align: center;
 }
 
 /* #section1 img {
