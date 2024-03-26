@@ -36,19 +36,21 @@ nav {
   position: fixed;
   top: 0;
   display: block;
-  font-size: 0px;
+  
   border-top: 1px solid var(--colorWhite);
   border-bottom: 1px solid var(--colorWhite);
 }
 
 nav ul {
   height: inherit;
+  display: flex;
+  list-style: none;
 }
 
 nav li {
+  
   width: 20%;
   height: inherit;
-  display: inline-block;
   background-color: var(--colorPurple);
   color: var(--colorWhite);
   text-align: center;
