@@ -4,12 +4,14 @@
     --colorWhite: #FFFFCC;
     --colorSilver: #CCCCCC;
     --colorBlack: #000000;
+    
   }
 
   label {
     display:block;
     margin-top:20px;
     letter-spacing:1px;
+    color: #FFFFCC;
 }
  
 .principal {
@@ -17,7 +19,7 @@
     margin:0 auto;
     width:510px;
     color: #666666;
-    font-family:Arial;
+    font-family:"Modak", system-ui;
 }
  
 form {
