@@ -18,7 +18,7 @@
     display:block;
     margin:0 auto;
     width:510px;
-    color: #666666;
+    color: #CCCCCC;;
     font-family:"Modak", system-ui;
 }
  
@@ -27,11 +27,11 @@ form {
     width:400px;
 }
  
-input, textarea {
+input, textarea, select {
     width:380px;
     height:27px;
     background:#666666;
-    border:2px solid #f6f6f6;
+    border:2px solid #FFFFCC;
     padding:10px;
     margin-top:5px;
     font-size:10px;
@@ -42,6 +42,11 @@ textarea {
     height:150px;
 }
  
+select {
+    width: 400px;
+    height: 35px; 
+}
+
 #submit {
     width:85px;
     height:35px;

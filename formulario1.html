@@ -45,13 +45,21 @@
 				
 				<form>
 					<label for="nombre">Nombre:</label>
-					<input id="nombre" name="nombre" placeholder="Nombre completo">
+					<input id="nombre" name="nombre" placeholder="Nombre completo" required>
 					<label for="email">Email:</label>
-					<input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+					<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+					<label for ="why">¿Por que quieres contactar?</label>
+					<select for="why" name="why" id="why" >
+                       <option value="1">Info General</option>
+					   <option value="2">Talleres</option>
+					   <option value="3">Cursos</option>
+					   <option value="4">Presupuestos</option>
+					</select>
 					<label for="mensaje">Mensaje:</label>
 					<textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
 					<input id="submit" name="submit" type="submit" value="Enviar">
 			 </form>
+			 
 
 			</section>
 		</main>
