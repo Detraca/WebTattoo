@@ -174,7 +174,8 @@ footer{
 }
 
 .carrItem:hover{  
-  scale: 1.2;
+  transition: all .5s ease-in-out;
+  transform: scale(1.2);
 }
 
 .carrItem figure{
