@@ -144,7 +144,7 @@ footer{
 }
 
 .list {
-  width:85%;
+  width:80%;
   margin:0 auto;  
   display: flex;
   gap: 8px;
@@ -194,35 +194,31 @@ footer{
   
 }
 
-.content {
+/*.content {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-
   font-family: sans-serif;
   font-size: 64px;
   font-weight: bold;
-}
+}*/
 
 .button {
-  position: absolute;
-  top: 50%;
-
-  width: 3rem;
-  height: 3rem;
-
-  transform: translateY(-50%);
+  margin-top: 8%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .button--previous {
-  left: 1.5rem;
-
+  float:left;
   transform: rotate(180deg);
+  margin-left: 1%;
 }
 
 .button--next {
-  right: 1.5rem;
+  float:right;
+  margin-right: 1%;
 }
 
 /********************************************************/
