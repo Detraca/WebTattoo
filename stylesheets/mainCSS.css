@@ -80,8 +80,9 @@ h1 {
 }
 
 #logo{
-  margin-left: 3vw;
-  scale: 60%;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  width: 6vw;
 }
 
 #titulo1{
@@ -126,8 +127,9 @@ section{
 #seccion2 article{
   color:var(--colorWhite);
   width: 30%;
-  padding: 5%;  
+  padding: 16% 5%;  
   vertical-align: center;
+  vertical-align: top;
 }
 
 #seccion2 article *{
