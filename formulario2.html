@@ -46,7 +46,7 @@
 
 						<article id="grid10">
 					
-							<section class="area1"> <h1> Presupuestos Talleres/cursos </h1> </section>
+							<section class="area1"> <h1> Talleres/cursos </h1> </section>
 							
 							<section class="area2">
 
@@ -57,20 +57,37 @@
 
 						
 				<form>
+
+				<fieldset>
 					<label for="nombre">Nombre:</label>
 					<input id="nombre" name="nombre" placeholder="Nombre completo" required>
 					<label for="email">Email:</label>
 					<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
-					<label for ="why">¿Por que quieres contactar?</label>
-					<select for="why" name="why" id="why" >
-					   <option value="1">Info General</option>
-					   <option value="2">Talleres</option>
-					   <option value="3">Cursos</option>
-					   <option value="4">Presupuestos</option>
+                    <label for ="curso">Cursos disponibles</label>
+					<select for="curso" name="curso" id="curso" >
+					   <option value="1">Tatto iniciación</option>
+					   <option value="2">Tatto básico</option>
+					   <option value="3">Tatto intermedio</option>
+					   <option value="4">Tatto avanzado</option>
 					</select>
-					<label for="mensaje">Mensaje:</label>
-					<input id="submit" name="submit" type="submit" value="Enviar">
-			 </form>
+
+				</fieldset>  
+					<label for="horarios">Horarios:</label>
+					   <input  class="horario" type="radio" name="manana" value="m"> Mañana
+						<input class="horario" type="radio" name="tarde" value="t"> Tarde
+						<input class="horario" type="radio" name="noche" value="n"> Noche
+						<input class="horario" type="radio" name="sabado" value="s"> Sábados
+						
+						
+						
+
+				<fieldset>	
+					
+					
+					<input id="submit" name="submit" type="submit" value="Solicitar">
+			 
+				</fieldset>
+				</form>
 			</section>
 		
 					<section class="area3">
@@ -80,20 +97,35 @@
 					<section class="area4">
 
 						<form>
-							<label for="nombre">Nombre:</label>
-							<input id="nombre" name="nombre" placeholder="Nombre completo" required>
-							<label for="email">Email:</label>
-							<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
-							<label for ="why">¿Por que quieres contactar?</label>
-							<select for="why" name="why" id="why" >
-							   <option value="1">Info General</option>
-							   <option value="2">Talleres</option>
-							   <option value="3">Cursos</option>
-							   <option value="4">Presupuestos</option>
-							</select>
-							<label for="mensaje">Mensaje:</label>
-							<input id="submit" name="submit" type="submit" value="Enviar">
-					 </form>
+
+							<fieldset>
+								<label for="nombre">Nombre:</label>
+								<input id="nombre" name="nombre" placeholder="Nombre completo" required>
+								<label for="email">Email:</label>
+								<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+								<label for ="curso">Talleres disponibles</label>
+								<select for="curso" name="curso" id="curso" >
+								   <option value="1">Dibujo</option>
+								   <option value="2">La piel</option>
+								   <option value="3">Materiales básicos</option>
+								   <option value="4">Infecciones y Prevención</option>
+								</select>
+			
+							</fieldset>  
+								<label for="horarios">Horarios:</label>
+									<input  class="horario" type="radio" name="manana" value="m"> Mañana
+									<input class="horario" type="radio" name="tarde" value="t"> Tarde
+									<input class="horario" type="radio" name="noche" value="n"> Noche
+									<input class="horario" type="radio" name="sabado" value="s"> Sábados
+								  
+			
+							<fieldset>	
+								
+								
+								<input id="submit" name="submit" type="submit" value="Solicitar">
+						 
+							</fieldset>
+							</form>
 					</section>
 					
 					
