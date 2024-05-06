@@ -10,39 +10,39 @@
     margin-top: 2%;
 }
 
-article{
+#grid10{
     display: grid;
     padding: 0;
     margin-bottom: 1.5em;
     height: 100%;
     width: 100%;
-    border: 1px solid black;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    
     
 }
 
-section{
-   background-color: darkgray;
+
+
+article{
+
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    /*border: 1px solid #CCCCCC;*/
+    border: 1px solid black;
     border-radius: 50px;
-    
+      
 }
 
 
-
-#grid10{
-    display: grid;
-   /* grid-template-columns: repeat(4, 80px);
-    grid-template-rows: repeat(4 70px);*/
-}
 
 #grid10 .area1{
     grid-column-start: 1;
     grid-column-end: 8;
     
 }
+
 
 #grid10 .area2{
 
@@ -85,8 +85,6 @@ label, h3 {
 }
  
 
-
-
 /* .principal {
     display:block;
     margin:0 auto;
@@ -98,6 +96,10 @@ label, h3 {
 form {
     margin:0 auto;
     width:400px;
+    position:relative;		
+	border-radius:0 0 8px 8px; 
+   
+
 }
  
 input,  select {
@@ -107,32 +109,53 @@ input,  select {
     border:2px solid #FFFFCC;
     /* padding:15px; */
     margin-top:5px;
-    font-size:1vw;
+    font-size: 1.3vw;
     color:#ffffff;
     border-radius: 5px;
     font-family: "Titan One";
 }
 
-input, select {
-    font-size: 1.3vw;
-}
  
 
-.horario, text {
+.horario{
   width:20px;
   height:15px;
   
 }
 
 
-
-p {
-
-    color:#ffffff;   
-    font-family: "Titan One";
-
+#tipo_viajero {	
+	padding-top: 10px;
+	border-right: 0;                 /* quito el borde derecho de este fieldset */
 }
- 
+
+fieldset label{
+	display:inline-flex;
+}
+
+fieldset input {	
+	vertical-align: middle;	
+         /* input alineado verticalmente con label */
+}
+
+
+
+#tipo_horario input {
+	float:left;
+	clear:left;
+	/* para centrarlo con label, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
+	  
+}
+
+#tipo_horario label {
+	float: left;
+    margin-left: px;                  /*separo el label del input */
+	/* para centrarlo con input, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
+	margin-top: 2px;
+    font-size: 1.3vw;
+}
+
+
 
 #submit {
     width:85px;

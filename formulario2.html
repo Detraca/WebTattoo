@@ -38,100 +38,79 @@
 
 		<main>
 
-			
+		<section class="seccionFinal">
+
+			 <section id="grid10">
 				
-					
-
-				
-
-						<article id="grid10">
-					
-							<section class="area1"> <h1> Talleres/cursos </h1> </section>
-							
-							<section class="area2">
-
-								<h3>Cursos</h3>
-				
-					</section>
-					<section class="area2a">
-
+					<article class="area1"> <h1> Solicitar Cursos y Talleres </h1> </article>
+					<article class="area2"><h3>Cursos</h3></article>
+					<article class="area2a">
+					<form>
+						<fieldset>
+							<label for="nombre">Nombre:</label>
+							<input id="nombre" name="nombre" placeholder="Nombre completo" required>
+							<label for="email">Email:</label>
+							<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+                    		<label for ="curso">Cursos disponibles</label>
+							<select for="curso" name="curso" id="curso" >
+					   		<option value="1">Tatto iniciación</option>
+					   		<option value="2">Tatto básico</option>
+					   		<option value="3">Tatto intermedio</option>
+					   		<option value="4">Tatto avanzado</option>
+							</select>
+						</fieldset>  
 						
-				<form>
+						<fieldset for="tipo_horario" id="tipo_horario">
+						    	
+						    <input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Mañana</label>	
+							<input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Tarde</label>	
+							<input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Sábado</label>	
+																	
+													
+						</fieldset>	
 
-				<fieldset>
+					  	<input id="submit" name="submit" type="submit" value="Solicitar">
+			 		</form>
+					</article>
+		            
+					<article class="area3"><h3>Talleres</h3></article>
+					<article class="area4">
+					
+					<form>
+
+					<fieldset>
 					<label for="nombre">Nombre:</label>
 					<input id="nombre" name="nombre" placeholder="Nombre completo" required>
 					<label for="email">Email:</label>
 					<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
-                    <label for ="curso">Cursos disponibles</label>
+					<label for ="curso">Talleres disponibles</label>
 					<select for="curso" name="curso" id="curso" >
-					   <option value="1">Tatto iniciación</option>
-					   <option value="2">Tatto básico</option>
-					   <option value="3">Tatto intermedio</option>
-					   <option value="4">Tatto avanzado</option>
+						<option value="1">Dibujo</option>
+						<option value="2">La piel</option>
+						<option value="3">Materiales básicos</option>
+						<option value="4">Infecciones y Prevención</option>
 					</select>
-
-				</fieldset>  
-					<label for="horarios">Horarios:</label>
-					   <input  class="horario" type="radio" name="manana" value="m"> Mañana
-						<input class="horario" type="radio" name="tarde" value="t"> Tarde
-						<input class="horario" type="radio" name="noche" value="n"> Noche
-						<input class="horario" type="radio" name="sabado" value="s"> Sábados
-						
-						
-						
-
-				<fieldset>	
-					
-					
-					<input id="submit" name="submit" type="submit" value="Solicitar">
-			 
-				</fieldset>
-				</form>
-			</section>
-		
-					<section class="area3">
-					<h3>Talleres</h3>
-					</section>
-					
-					<section class="area4">
-
-						<form>
-
-							<fieldset>
-								<label for="nombre">Nombre:</label>
-								<input id="nombre" name="nombre" placeholder="Nombre completo" required>
-								<label for="email">Email:</label>
-								<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
-								<label for ="curso">Talleres disponibles</label>
-								<select for="curso" name="curso" id="curso" >
-								   <option value="1">Dibujo</option>
-								   <option value="2">La piel</option>
-								   <option value="3">Materiales básicos</option>
-								   <option value="4">Infecciones y Prevención</option>
-								</select>
-			
-							</fieldset>  
-								<label for="horarios">Horarios:</label>
-									<input  class="horario" type="radio" name="manana" value="m"> Mañana
-									<input class="horario" type="radio" name="tarde" value="t"> Tarde
-									<input class="horario" type="radio" name="noche" value="n"> Noche
-									<input class="horario" type="radio" name="sabado" value="s"> Sábados
-								  
-			
-							<fieldset>	
-								
-								
-								<input id="submit" name="submit" type="submit" value="Solicitar">
-						 
-							</fieldset>
-							</form>
-					</section>
-					
+		            </fieldset>  
+					<fieldset for="tipo_horario" id="tipo_horario">
+						    	
+						    <input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Mañana</label>	
+							<input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Tarde</label>	
+							<input class="horario"  type="radio" name="manana" value="m">
+							<label class="horario" for="menores_29">Sábado</label>	
+																	
+													
+						</fieldset>	
+							<input id="submit" name="submit" type="submit" value="Solicitar">
+						 </form>
 					
 					</article>
-		
-					
+				</section>
+		 </section>		
 			
 		</main>
 
