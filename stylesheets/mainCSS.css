@@ -247,7 +247,38 @@ footer{
 
 /********************************************************/
 
+.navSecund{
+  height: 4vh;
+  width: 100vw;
+  position: fixed;
+  top:8%;
+ 
+  
+  
+ 
+  border: none;
 
+}
+.navSecund li{
+  width: 33%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: inherit;
+  background-color: black;
+ 
+  color: var(--colorWhite);
+  text-align: center;
+  font-size: 3.2vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.navSecund img{
+
+  height: 50px;
+  width: 50px;
+
+}
 
 
 
