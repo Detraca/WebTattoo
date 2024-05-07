@@ -11,6 +11,7 @@
 }
 
 #grid10{
+    position: absolute;
     display: grid;
     padding: 0;
     margin-bottom: 1.5em;
@@ -26,7 +27,7 @@
 
 article{
 
-   
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;

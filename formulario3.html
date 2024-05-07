@@ -39,9 +39,115 @@
 		<main>
 
 			<section class="seccionFinal">
-				
-				<!-- Formulario aquí -->
 
+				<h1>Solicitar presupuesto</h1>
+
+				<section id="presupuesto">
+				
+				<form action="" id="search" method="post">				
+					<fieldset for="multiples_tray" id="multiples_tray">
+
+						<label for="nombre">Nombre:</label>
+						<input id="nombre" name="nombre" placeholder="Nombre completo" required>
+						<label for="email">Email:</label>
+						<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+						<label for="email">Teléfono</label>
+					<input id="email" name="email" type="email" placeholder="+34 666666666" required>
+						
+						<a href="">Tipo de Tatuaje</a>					
+						<select id="origen">
+							<option value="null" name="origen_vuelo">Indicar Tipo</option>
+							<optgroup class="canarias" label="Tipos">
+								<option value="VDE">No lo sé, necesito asesoramiento </option>
+								<option value="FUE">Old School (tradicional)</option>
+								<option value="LPA">Neo Tradicional</option>
+								<option value="GMZ">Realista</option>
+								<option value="SPC">Japonés</option>
+								<option value="ACE">Tribal</option>
+								<option value="TFN">Geométrico</option>
+								<option value="TFS">Gótico</option>
+								<option value="TFS">Otro</option>
+							</optgroup>
+						
+						</select>
+						<select id="destino">
+							<option value="null" name="destino_vuelo">Indicar Zona </option>
+							<optgroup class="canarias" label="Zona del cuerpo">
+								<option value="VDE">Brazo</option>
+								<option value="FUE">Antebrazo</option>
+								<option value="LPA">Hombro</option>
+								<option value="GMZ">Mano</option>
+								<option value="SPC">Pierna</option>
+								<option value="ACE">Glúteo</option>
+								<option value="TFN">Tobillo</option>
+								<option value="TFS">Pie</option>
+								<option value="LPA">Espalda</option>
+								<option value="GMZ">Pecho</option>
+								<option value="SPC">Lumbar</option>
+								<option value="ACE">Costillas</option>
+								<option value="TFN">Barriga</option>
+								<option value="TFS">Cuello</option>
+								<option value="TFS">No lo sé, prefiero asesoramiento</option>
+								<option value="TFS">Otro</option>
+
+
+							</optgroup>
+						
+						</select>	
+						<label for="solo_ida">A color</label>
+						<input type="checkbox" name="ch_ida" id="solo_ida">	
+						<label for="solo_directos">Blanco /Negro</label>
+						<input type="checkbox" name="ch_directo" id="solo_directos">
+						<label for="solo_directos">Prefiero asesoramiento</label>
+						<input type="checkbox" name="ch_directo" id="solo_directos">	
+					</fieldset>				
+					<fieldset for="fechas" id="fechas">
+
+						<label for="mensaje">ideas sobre el tatuaje</label>
+					<textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+	
+						<a href="">Fecha y hora de preferencia</a>
+
+						<input type="date" name="out" id="fecha_salida" placeholder="Ida">
+						<input type="time" name="in" id="fecha_regreso" placeholder="Vuelta">
+						<label for="mejor_precio">Mejor precio en el mes</label>
+						<input type="checkbox" name="ch_precio" id="mejor_precio">	
+					</fieldset>
+					<fieldset for="viajeros" id="viajeros">				
+						<label for="adulto">Tamaño</label>
+						<select name="adulto" id="sel_adulto"> 
+							<option value="1" selected></option> <!--Con el selected dejo predeterminada esta opcion-->
+							<option selected value="-">-</option>
+							<option value="1">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje pequeño</option>
+							<option value="2">M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje mediano</option>
+							<option value="3">G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje grande</option>
+							<option value="4">?&nbsp;&nbsp;&nbsp;&nbsp;No lo sé, prefiero asesoramiento</option>
+						</select>
+						<a href="">→ Galeria de ejemplos</a>
+						
+							
+					</fieldset>	
+					<fieldset for="tipo_viajero" id="tipo_viajero">
+						<input type="checkbox" name="menores_29" id="menores_29">
+						<label for="menores_29">Alergías</label>	
+						<input type="checkbox" name="carne_joven" id="carne_joven">
+						<label for="carne_joven">Cirugías</label>
+						<input type="checkbox" name="universitarios" id="universitarios"/>
+						<label for="universitarios">Intolerancias</label>	
+						<input type="checkbox" name="mayores_60" id="mayores_60"/>
+						<label for="mayores_60">Mayor de edad</label>				
+						<input type="checkbox" name="familia_numerosa" id="familia_numerosa"/>
+						<label for="familia_numerosa">Menor de edad</label>	
+						
+							
+
+					</fieldset>
+					
+				
+
+					<button type="" name="bt_buscar" value="Buscar" id="buscar">Solicita</button>		
+				</form>	
+				</section>
 			</section>
 		</main>
 
