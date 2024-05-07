@@ -11,8 +11,8 @@
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width: 945px;
-    height: 260px;
+    width: 965px;
+    height: 200px;
     color: var(--colorWhite);    
     font-family:"Titan One", system-ui;
     font-size: 1vw;
@@ -22,7 +22,7 @@
 /* Formulario */
 form{
 	position:relative;	
-	height:350.4px;
+	height:330.4px;
 	/* no especifico un width, coge el de su padre, el section */
 	border:4px double  white;
 	border-radius:50px;
@@ -85,9 +85,16 @@ select, #fecha_salida, #fecha_regreso {
 	position:relative;
 	height:40px;
 	width:180px;
-	font: bold 1.5em bold;  /* bold font-style mas grueso y otro bold font-weight negrita */
-	color: grey;
+	font-family: "Titan One"; /* bold font-style mas grueso y otro bold font-weight negrita */
+	color:#ffffff;
+	background:#666666;
+	border:2px solid #FFFFCC;
+	border-radius: 5px;
+	margin-top:5px;
+	font-size:1vw;
 }
+
+
 
 #viajeros {
 	padding-top: 10px;
@@ -117,6 +124,36 @@ select, #fecha_salida, #fecha_regreso {
 	top: 50%;
 	transform: translate(0%, -50%);
 	border-radius: 8px;	
-	font: bold 1.3em Arial;
-	background: #f3f4f5;
+	font-family: "Titan One";
+	background:#666666;
+	color:#ffffff;
+	margin-top:5px;
+
 }
+
+
+textarea {
+    height:85px;
+	width: 180px; }
+
+ .datos {
+	/*height:40px;*/
+	/*width:175px;*/
+
+	background:#666666;
+    border:2px solid #FFFFCC;
+    /* padding:15px; */
+    margin-top:5px;
+    font-size:1vw;
+    color:#ffffff;
+    border-radius: 5px;
+    font-family: "Titan One";
+
+}
+	
+    
+
+
+
+
+  
