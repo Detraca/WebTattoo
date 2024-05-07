@@ -72,7 +72,7 @@
 				<section id="presupuesto">
 				
 				<form action="" id="search" method="post">				
-					<fieldset for="multiples_tray" id="multiples_tray">
+					<fieldset for="multiples_datos" id="multiples_datos">
 
 						<label for="nombre">Nombre:</label>
 						<input class="datos" id="nombre" name="nombre" placeholder="Nombre completo" required>
@@ -135,14 +135,14 @@
 	
 						<a href="">Fecha y hora de preferencia</a>
 
-						<input type="date" name="out" id="fecha_salida" placeholder="Ida">
-						<input type="time" name="in" id="fecha_regreso" placeholder="Vuelta">
+						<input type="date" name="out" id="fecha" placeholder="Ida">
+						<input type="time" name="in" id="hora" placeholder="Vuelta">
 						<label for="mejor_precio">Mejor precio en el mes</label>
 						<input type="checkbox" name="ch_precio" id="mejor_precio">	
 					</fieldset>
-					<fieldset for="viajeros" id="viajeros">				
+					<fieldset for="cliente" id="cliente">				
 						<label for="adulto">Tamaño</label>
-						<select name="adulto" id="sel_adulto"> 
+						<select name="adulto" id="sel_tamano"> 
 							<option value="1" selected></option> <!--Con el selected dejo predeterminada esta opcion-->
 							<option selected value="-">-</option>
 							<option value="1">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje pequeño</option>
@@ -154,7 +154,7 @@
 						
 							
 					</fieldset>	
-					<fieldset for="tipo_viajero" id="tipo_viajero">
+					<fieldset for="tipo_cliente" id="tipo_cliente">
 						<input type="checkbox" name="menores_29" id="menores_29">
 						<label for="menores_29">Alergías</label>	
 						<input type="checkbox" name="carne_joven" id="carne_joven">

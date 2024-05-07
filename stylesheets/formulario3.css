@@ -53,35 +53,35 @@ fieldset input {
 	vertical-align: middle;	     /* input alineado verticalmente con label */
 }
 
-#multiples_tray select, #fechas input {
+#multiples_datos select, #fechas input {
 	margin: 4px 0;
 }
 
-#tipo_viajero {	
+#tipo_cliente {	
 	padding-top: 10px;
 	border-right: 0;                 /* quito el borde derecho de este fieldset */
 }
 
-#tipo_viajero input {
+#tipo_cliente input {
 	float:left;
 	clear:left;
 	/* para centrarlo con label, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
 	margin-top: 10px;   
 }
 
-#tipo_viajero label {
+#tipo_cliente label {
 	float: left;
     margin-left: 2px;                  /*separo el label del input */
 	/* para centrarlo con input, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
 	margin-top: 7px;
 }
 
-#sel_adulto {
+#sel_tamano {
 	width: 50px;
 	margin-top: 5px;
 }
 
-select, #fecha_salida, #fecha_regreso {
+select, #fecha, #hora {
 	position:relative;
 	height:40px;
 	width:190px;
@@ -96,21 +96,21 @@ select, #fecha_salida, #fecha_regreso {
 
 
 
-#viajeros {
+#cliente {
 	padding-top: 10px;
 }
 
-#viajeros label, #viajeros a{	
+#cliente label, #cliente a{	
 	float: left;
 	clear: left;
 	margin-top: 13px; 
 }
 
-#viajeros a {
-	padding-top: 8px;      /* separo los a de viajeros */
+#cliente a {
+	padding-top: 8px;      /* separo los a de clientes */
 }
 
-#sel_adulto {
+#sel_tamano {
 	height: 30px;	       /*la caja más pequeña de ese select concreto*/         
 	float:right;
 }
