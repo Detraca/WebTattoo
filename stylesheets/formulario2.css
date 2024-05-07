@@ -33,6 +33,7 @@ article{
     align-items: center;
     border: 1px solid black;
     border-radius: 50px;
+    
       
 }
 
@@ -57,7 +58,8 @@ article{
 
  
   grid-column: 1 / span 3;
-  border: 1px solid #CCCCCC;
+  
+  border:4px double  #CCCCCC;
  
   
 }
@@ -69,7 +71,7 @@ article{
 }
 #grid10 .area4{
     grid-column: 4/ span 4;
-    border: 1px solid #CCCCCC;
+    border:4px double  #CCCCCC;
 }
 
 

@@ -84,7 +84,7 @@ fieldset input {
 select, #fecha_salida, #fecha_regreso {
 	position:relative;
 	height:40px;
-	width:180px;
+	width:190px;
 	font-family: "Titan One"; /* bold font-style mas grueso y otro bold font-weight negrita */
 	color:#ffffff;
 	background:#666666;
@@ -133,8 +133,8 @@ select, #fecha_salida, #fecha_regreso {
 
 
 textarea {
-    height:85px;
-	width: 180px; }
+    height:90px;
+	width: 190px; }
 
  .datos {
 	/*height:40px;*/
