@@ -112,14 +112,9 @@ footer{
   height: 3vh;
   color: var(--colorWhite);
   text-align: center;
+  align-items: center;
   clear:both;
 }
-
-/* #section1 img {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-} */
 
 
 /********************************************************/
