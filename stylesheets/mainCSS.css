@@ -48,6 +48,7 @@ h1 {
 }
 
 #logo{
+  float:left;
   margin-left: 6vw;
   margin-top: 6vh;
   width: 6vw;
@@ -56,7 +57,7 @@ h1 {
 #titulo1{
   color: var(--colorWhite);
   font-size: 3vw;
-  margin-top: 60vh;
+  margin-top: 80vh;
   margin-left: 3vw;
 }
 
@@ -105,6 +106,18 @@ section{
   text-align: center;
   margin: 0 auto;
   font-size: 2vw;
+}
+
+#linkInfo{
+  position:relative;
+  height: inherit;
+  width: 8vw;
+  padding:2%;
+  margin-top: 1vh !important;
+  border-radius: 0.5vw;
+  background-color:var(--colorPurple);
+  color:var(--colorWhite);
+  font-size: 1.5vw !important;
 }
 
 footer{  
