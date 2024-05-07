@@ -11,8 +11,8 @@
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width: 945px;
-    height: 260px;
+    width: 965px;
+    height: 200px;
     color: var(--colorWhite);    
     font-family:"Titan One", system-ui;
     font-size: 1vw;
@@ -22,7 +22,7 @@
 /* Formulario */
 form{
 	position:relative;	
-	height:350.4px;
+	height:330.4px;
 	/* no especifico un width, coge el de su padre, el section */
 	border:4px double  white;
 	border-radius:50px;
@@ -53,57 +53,64 @@ fieldset input {
 	vertical-align: middle;	     /* input alineado verticalmente con label */
 }
 
-#multiples_tray select, #fechas input {
+#multiples_datos select, #fechas input {
 	margin: 4px 0;
 }
 
-#tipo_viajero {	
+#tipo_cliente {	
 	padding-top: 10px;
 	border-right: 0;                 /* quito el borde derecho de este fieldset */
 }
 
-#tipo_viajero input {
+#tipo_cliente input {
 	float:left;
 	clear:left;
 	/* para centrarlo con label, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
 	margin-top: 10px;   
 }
 
-#tipo_viajero label {
+#tipo_cliente label {
 	float: left;
     margin-left: 2px;                  /*separo el label del input */
 	/* para centrarlo con input, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
 	margin-top: 7px;
 }
 
-#sel_adulto {
+#sel_tamano {
 	width: 50px;
 	margin-top: 5px;
 }
 
-select, #fecha_salida, #fecha_regreso {
+select, #fecha, #hora {
 	position:relative;
 	height:40px;
-	width:180px;
-	font: bold 1.5em bold;  /* bold font-style mas grueso y otro bold font-weight negrita */
-	color: grey;
+	width:190px;
+	font-family: "Titan One"; /* bold font-style mas grueso y otro bold font-weight negrita */
+	color:#ffffff;
+	background:#666666;
+	border:2px solid #FFFFCC;
+	border-radius: 5px;
+	margin-top:5px;
+	font-size:1vw;
 }
 
-#viajeros {
+
+
+#cliente {
 	padding-top: 10px;
 }
 
-#viajeros label, #viajeros a{	
+#cliente label, #cliente a{	
 	float: left;
 	clear: left;
 	margin-top: 13px; 
 }
 
-#viajeros a {
-	padding-top: 8px;      /* separo los a de viajeros */
+#cliente a {
+	padding-top: 8px;      /* separo los a de clientes */
 }
 
-#sel_adulto {
+#sel_tamano {
 	height: 30px;	       /*la caja más pequeña de ese select concreto*/         
 	float:right;
 }
@@ -117,6 +124,36 @@ select, #fecha_salida, #fecha_regreso {
 	top: 50%;
 	transform: translate(0%, -50%);
 	border-radius: 8px;	
-	font: bold 1.3em Arial;
-	background: #f3f4f5;
+	font-family: "Titan One";
+	background:#666666;
+	color:#ffffff;
+	margin-top:5px;
+
 }
+
+
+textarea {
+    height:90px;
+	width: 190px; }
+
+ .datos {
+	/*height:40px;*/
+	/*width:175px;*/
+
+	background:#666666;
+    border:2px solid #FFFFCC;
+    /* padding:15px; */
+    margin-top:5px;
+    font-size:1vw;
+    color:#ffffff;
+    border-radius: 5px;
+    font-family: "Titan One";
+
+}
+	
+    
+
+
+
+
+  

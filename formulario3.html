@@ -72,14 +72,14 @@
 				<section id="presupuesto">
 				
 				<form action="" id="search" method="post">				
-					<fieldset for="multiples_tray" id="multiples_tray">
+					<fieldset for="multiples_datos" id="multiples_datos">
 
 						<label for="nombre">Nombre:</label>
-						<input id="nombre" name="nombre" placeholder="Nombre completo" required>
+						<input class="datos" id="nombre" name="nombre" placeholder="Nombre completo" required>
 						<label for="email">Email:</label>
-						<input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
-						<label for="email">Teléfono</label>
-					<input id="email" name="email" type="email" placeholder="+34 666666666" required>
+						<input class="datos" id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+						<label  for="email">Teléfono</label>
+					    <input class="datos"id="tel" name="tel" type="tel" placeholder="+34 666666666" required>
 						
 						<a href="">Tipo de Tatuaje</a>					
 						<select id="origen">
@@ -131,18 +131,18 @@
 					<fieldset for="fechas" id="fechas">
 
 						<label for="mensaje">ideas sobre el tatuaje</label>
-					<textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+					<textarea class="datos" id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
 	
 						<a href="">Fecha y hora de preferencia</a>
 
-						<input type="date" name="out" id="fecha_salida" placeholder="Ida">
-						<input type="time" name="in" id="fecha_regreso" placeholder="Vuelta">
+						<input type="date" name="out" id="fecha" placeholder="Ida">
+						<input type="time" name="in" id="hora" placeholder="Vuelta">
 						<label for="mejor_precio">Mejor precio en el mes</label>
 						<input type="checkbox" name="ch_precio" id="mejor_precio">	
 					</fieldset>
-					<fieldset for="viajeros" id="viajeros">				
+					<fieldset for="cliente" id="cliente">				
 						<label for="adulto">Tamaño</label>
-						<select name="adulto" id="sel_adulto"> 
+						<select name="adulto" id="sel_tamano"> 
 							<option value="1" selected></option> <!--Con el selected dejo predeterminada esta opcion-->
 							<option selected value="-">-</option>
 							<option value="1">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje pequeño</option>
@@ -150,11 +150,11 @@
 							<option value="3">G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje grande</option>
 							<option value="4">?&nbsp;&nbsp;&nbsp;&nbsp;No lo sé, prefiero asesoramiento</option>
 						</select>
-						<a href="">→ Galeria de ejemplos</a>
+						<a href="paginaSecundariaBase.html">→ Galeria de ejemplos</a>
 						
 							
 					</fieldset>	
-					<fieldset for="tipo_viajero" id="tipo_viajero">
+					<fieldset for="tipo_cliente" id="tipo_cliente">
 						<input type="checkbox" name="menores_29" id="menores_29">
 						<label for="menores_29">Alergías</label>	
 						<input type="checkbox" name="carne_joven" id="carne_joven">
@@ -172,7 +172,8 @@
 					
 				
 
-					<button type="" name="bt_buscar" value="Buscar" id="buscar">Solicita</button>		
+					<button type="" name="bt_buscar" value="Buscar" id="buscar">Solicita</button>	
+					
 				</form>	
 				</section>
 			</section>

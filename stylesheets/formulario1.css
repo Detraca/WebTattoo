@@ -11,25 +11,30 @@ main{
     margin-top: 2%;
 }
 
-article{
+#grid10{
+    position: absolute;
     display: grid;
     padding: 0;
     margin-bottom: 1.5em;
     height: 100%;
     width: 100%;
-    border: 1px solid black;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    
     
 }
 
-section{
-    
+article{
+
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     border-radius: 50px;
-    
+      
 }
+
 
 
 
