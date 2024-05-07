@@ -226,9 +226,10 @@ nav ul li ul li {
 }
 
 .list {
-  width:80%;
+  width:75%;
   margin:0 auto;  
-  display: flex;
+  display: flex;  
+	transform: translate(4.5%, 0);
   gap: 8px;
   padding: 16px;
   list-style: none;
@@ -277,8 +278,9 @@ nav ul li ul li {
 }
 
 .button {
-  margin-top: 8%;
-  width: 2rem;  
+  margin-top: 6%;
+  scale: 70%;
+  width: 2rem;
   border: none;
   cursor: pointer;
   appearance: none;
@@ -296,37 +298,4 @@ nav ul li ul li {
 }
 
 /********************************************************/
-
-.navSecund{
-  height: 4vh;
-  width: 100vw;
-  position: fixed;
-  top:8%;
- 
-  
-  
- 
-  border: none;
-
-}
-.navSecund li{
-  width: 33%;
-  margin-left: 1%;
-  margin-right: 1%;
-  height: inherit;
-  background-color: black;
- 
-  color: var(--colorWhite);
-  text-align: center;
-  font-size: 3.2vh;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
-
-.navSecund img{
-
-  height: 50px;
-  width: 50px;
-
-}
 
