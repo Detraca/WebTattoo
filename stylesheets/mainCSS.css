@@ -209,6 +209,7 @@ nav ul li ul li {
 .submenu .submenu li a {        
   background: var(--colorPurple);
   color: var(--colorWhite);
+  padding: 0 15%;
 }
 
 .submenu .submenu {              
