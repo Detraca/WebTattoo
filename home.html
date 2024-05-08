@@ -6,6 +6,8 @@
 		<title>WebTattoo</title>
 		<script src="scripts/main.js"></script>
 		<link href="stylesheets/mainCSS.css" rel="stylesheet" />
+		<!-- Enlaces iconos -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Enlaces para Fuentes -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,9 +19,7 @@
 		<header>
 			<nav>
 				<ul>
-					<li>
-						<!-- <a href="home.html">Home</a> -->
-					</li>
+					<!-- <a href="home.html">Home</a> -->
 					<li>
 						<a href="#">Secciones</a>
 						<ul class="submenu">
@@ -49,20 +49,29 @@
 							<li><a href="#" >Formularios</a>
 								<ul class="submenu">									
 									<li>
-										<a href="formulario1.html">Formulario1</a>
+										<a href="formulario1.html">Contacto</a>
 									</li>
 									<li>
-										<a href="formulario2.html">Formulario2</a>
+										<a href="formulario2.html">Cursos y talleres</a>
 									</li>
 									<li>
-										<a href="formulario3.html">Formulario3</a>
+										<a href="formulario3.html">Presupuestos</a>
 									</li>
 								</ul>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="#seccion5" >Contacto</a>
+						<a href="formulario1.html">Contacto</a>
+					</li>
+					<li class="redSocial">
+						<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li class="redSocial">
+						<a class="redSocial" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li class="redSocial">
+						<a href="https://www.whatsapp.com"><i class="fa fa-whatsapp"></i></a>
 					</li>
 				</ul>
 			</nav>
@@ -90,14 +99,26 @@
 			</section>
 
 			<!-- Sección servicios -->
-			<section id="seccion3" class="seccionIntermedia">
-				
-
-
+			<section id="seccion3" class="seccionIntermedia secciones3y5">
+				<article>					
+					<h2 class="modak-regular">01 TATUAJES</h2>
+					<p>Diseños propios y personalizados</p>					
+					<h2 class="modak-regular">02 PIERCING</h2>
+					<p>Dilataciones, piercing corporales</p>					
+					<h2 class="modak-regular">03 BODY PAINTING</h2>
+					<p>Diseños completos y personalizados</p>						
+					
+				</article>	
+				<aside class="tituloYMedia">			
+					<h2 id="titulo3" class="modak-regular">NUESTROS SERVICIOS</h2>		
+					
+					<img id="imageTatuador" src="img/tatuadorSmall.png" alt="Imagen principal tatuador"/>
+				</aside>
 			</section>
 
 			<!-- Sección carrusel -->
 			<section id="seccion4" class="seccionIntermedia">
+
 				<article class="list-wrapper">
 					<button onclick="handleClick('previous')" class="button button--previous" type="button">
 						<img  src="img\boneLeft.png" alt="icono flecha de huesos que señala hacia la izquierda para navegar a la imagen anterior"/>
@@ -154,15 +175,25 @@
 						</li>
 				</article>
 			</section>
+
+			<!-- Seccion quote -->
+			<section id="seccionFrase" class="seccionIntermedia">
+				<article>
+					<q>DISFRUTA DE LA VIDA, ES MÁS TARDE DE LO QUE CREES</q>
+					<P>Dicho Romano</P>
+				</article>
+			</section>
 			
 			<!-- Sección nosotros -->
-			<section id="seccion5" class="seccionFinal">	
+			<section id="seccion5" class="seccionFinal secciones3y5">	
 				
-				<h2 id="titulo3" class="modak-regular">Nosotros</h2>			
-				<video id="studioVideo" controls>
-					<source src="Video/VideoStudio.mp4" type="video/mp4">
-					Tu navegador no soporta HTML video.
-				  </video>
+				<aside class="tituloYMedia">
+					<h2 id="titulo3" class="modak-regular">Nosotros</h2>			
+					<video id="studioVideo" controls>
+						<source src="Video/VideoStudio.mp4" type="video/mp4">
+						Tu navegador no soporta HTML video.
+					</video>
+				</aside>
 				<article>					
 					<h2 class="modak-regular">DIRECCIÓN</h2>
 					<p>Avda Principes, 1, 38010, Tenerife</p>					

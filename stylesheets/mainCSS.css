@@ -52,6 +52,8 @@ h1 {
   margin-left: 6vw;
   margin-top: 6vh;
   width: 6vw;
+  z-index: 2;
+  position:relative;
 }
 
 #titulo1{
@@ -84,7 +86,7 @@ section{
   background-position-y: center;
 }
 
-#seccion2 *, #seccion5 *{
+#seccion2 *, .secciones3y5 *{
   display:inline-block;
 }
 
@@ -119,39 +121,55 @@ section{
   font-size: 1.5vw !important;
 }
 
-#seccion5 article{
+.secciones3y5 article{
   color:var(--colorWhite);
   width: 38%;
-  padding: 3.5% 3%;  
+  padding: 12% 3%;  
   vertical-align: top;
 }
 
-#seccion5 article *{
+.secciones3y5 article *{
   width:100%;
   text-align: right;
   margin: 0 0;
   font-size: 2vw;
 }
 
-#seccion5>h2 {
+.secciones3y5 aside>h2 {
   position: relative;
   color:var(--colorWhite);
-  width: 50%;
+  width: 100%;
   text-align:right;
   font-size: 8vh;
   padding-top: 5%;
 }
 
-#seccion5 article h2{
+.secciones3y5 article h2{
   position:relative;
   width: 100%;
   text-align: right;
   margin-top: 2vh;
 }
 
-#studioVideo{
+.tituloYMedia{
   width: 50%;
-  display: inline-block;
+}
+
+#studioVideo, #imageTatuador{
+  width: 100%;
+  border-radius: 1vw;
+}
+
+#seccionFrase{
+  width: 100%;
+  color: var(--colorPurple);
+  font-size:5vw;
+  text-align:center;
+  font-family: "Modak", "Titan One", "Comic Sans MS", "Comic Sans", cursive, system-ui;
+}
+
+#seccionFrase article{
+  margin:10% 20%;
 }
 
 footer{  
@@ -197,6 +215,10 @@ nav li {
   text-align: center;
   font-size: 3.2vh;
   font-family: "Titan One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.redSocial{
+  width: 10%;
 }
 
 /* Estilos para los link */   
