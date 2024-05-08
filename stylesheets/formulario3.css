@@ -16,7 +16,7 @@
     height: 200px;
     color: var(--colorWhite);    
     font-family:"Titan One", system-ui;
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
 
 
@@ -90,7 +90,7 @@ select, #fecha, #hora {
 	border:2px solid #FFFFCC;
 	border-radius: 5px;
 	margin-top:5px;
-	font-size:1vw;
+	font-size:1.1vw;
 }
 
 
@@ -149,7 +149,7 @@ textarea {
 }
 
 h1{
- 
+	 
 	float: inherit;
 	clear: left;
 
