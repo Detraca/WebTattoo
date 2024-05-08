@@ -48,6 +48,7 @@ h1 {
 }
 
 #logo{
+  float:left;
   margin-left: 6vw;
   margin-top: 6vh;
   width: 6vw;
@@ -56,7 +57,7 @@ h1 {
 #titulo1{
   color: var(--colorWhite);
   font-size: 3vw;
-  margin-top: 60vh;
+  margin-top: 80vh;
   margin-left: 3vw;
 }
 
@@ -83,7 +84,7 @@ section{
   background-position-y: center;
 }
 
-#seccion2 *{
+#seccion2 *, #seccion5 *{
   display:inline-block;
 }
 
@@ -96,7 +97,6 @@ section{
   color:var(--colorWhite);
   width: 30%;
   padding: 16% 5%;  
-  vertical-align: center;
   vertical-align: top;
 }
 
@@ -105,6 +105,53 @@ section{
   text-align: center;
   margin: 0 auto;
   font-size: 2vw;
+}
+
+#linkInfo{
+  position:relative;
+  height: inherit;
+  width: 8vw;
+  padding:2%;
+  margin-top: 1vh !important;
+  border-radius: 0.5vw;
+  background-color:var(--colorPurple);
+  color:var(--colorWhite);
+  font-size: 1.5vw !important;
+}
+
+#seccion5 article{
+  color:var(--colorWhite);
+  width: 38%;
+  padding: 3.5% 3%;  
+  vertical-align: top;
+}
+
+#seccion5 article *{
+  width:100%;
+  text-align: right;
+  margin: 0 0;
+  font-size: 2vw;
+}
+
+#seccion5>h2 {
+  position: relative;
+  color:var(--colorWhite);
+  width: 50%;
+  text-align:right;
+  font-size: 8vh;
+  padding-top: 5%;
+}
+
+#seccion5 article h2{
+  position:relative;
+  width: 100%;
+  text-align: right;
+  margin-top: 2vh;
+}
+
+#studioVideo{
+  width: 50%;
+  display: inline-block;
 }
 
 footer{  
@@ -130,13 +177,14 @@ nav {
   border-top: 1px solid var(--colorWhite);
   border-bottom: 1px solid var(--colorWhite);
   background-color: var(--colorBlack);
+  z-index: 3;
 }
 
 nav ul {
   height: inherit;
   display: flex;
   list-style: none;
-  list-style-type:none;  	
+  list-style-type: none;  	
 }
 
 nav li {
@@ -226,10 +274,10 @@ nav ul li ul li {
 }
 
 .list {
-  width:75%;
+  width:82%;
   margin:0 auto;  
   display: flex;  
-	transform: translate(4.5%, 0);
+	transform: translate(2.6%, 0);
   gap: 8px;
   padding: 16px;
   list-style: none;
@@ -278,7 +326,7 @@ nav ul li ul li {
 }
 
 .button {
-  margin-top: 6%;
+  margin-top: 8%;
   scale: 70%;
   width: 2rem;
   border: none;

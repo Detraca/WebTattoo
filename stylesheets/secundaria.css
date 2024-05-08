@@ -1,144 +1,9 @@
-:root {
-    /*Colores principales de marca*/
-    --colorPurple: #9900CC;
-    --colorWhite: #FFFFCC;
-    --colorSilver: #CCCCCC;
-    --colorBlack: #000000;
-  }
-  
-  .modak-regular {  
-    font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .titan-one-regular {
-    font-family: "Titan One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  /********Selector universal********/
-  * {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-
-  a {
-    color: var(--colorWhite);
-    text-decoration: none;
-  }
-  
-  body {
-    background-color: var(--colorBlack);
-  }
-
-  nav {  
-    position: fixed;
-    top:0;
-    width: 100%;
-    height: 4vh;  
-    border-top: 1px solid var(--colorWhite);
-    border-bottom: 1px solid var(--colorWhite);
-    background-color: var(--colorBlack);
-  }
-  
-  nav ul {
-    height: inherit;
-    display: flex;
-    list-style: none;
-    list-style-type:none;  	
-  }
-  
-  nav li {
-    float: left;
-    width: 25%;
-    margin-right: 1px;
-    height: inherit;
-    background-color: var(--colorPurple);
-    color: var(--colorWhite);
-    text-align: center;
-    font-size: 3.2vh;
-    font-family: "Titan One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  
-  /* Estilos para los link */   
-  nav li a {
-    display:block;	
-    height:inherit;
-    min-width:100%;	
-    text-align: center;
-    text-decoration: none;
-    transition:all 3s ease;
-  }
-  
-  /* estados hover de los link */   
-  nav li:hover a {  
-    background: var(--colorBlack);
-  }
-  
-  /* estilos del dropdown */        
-  nav li:hover ul a {
-    background: #555555; 
-  }
-  
-  /* estilos del estado hover del dropdown*/   
-  nav li:hover ul a:hover {
-    background: var(--colorWhite);
-    color: var(--colorBlack);
-    transition:all 0.3s ease;
-  }
-  
-  nav li ul {
-    display: none;    
-  }
-   
-  nav li ul li {
-    display: block;
-    float: none; 
-    width:inherit;
-  }
-  
-  nav li ul li a {
-    white-space: nowrap;
-  }
-  
-  /* Aparace el dropdown al pasar por encima de ambos submenus*/   
-  nav ul li a:hover + .submenu, .submenu:hover {    
-    display: block;
-  } 
-  
-  nav ul li ul li {                      
-    position: relative;	
-  }
-  
-  .submenu .submenu li a {        
-    background: var(--colorPurple);
-    color: var(--colorWhite);
-    padding: 0 15%;
-  }
-  
-  .submenu .submenu {              
-    position: absolute;
-    top: 0px; 
-    left: 100%; 
-  }
-  
-  /********************************************************/
-
-  /*Opciones particulares de la página secundaria */ 
 
   .navSecund{
     height: 4vh;
     width: 100vw;
     position: fixed;
     top:25%;
-   
-    
-    
-   
     border: none;
   
   }
@@ -147,8 +12,7 @@
     margin-left: 1%;
     margin-right: 1%;
     height: inherit;
-    background-color: black;
-   
+    background-color: black;   
     color: var(--colorWhite);
     text-align: center;
     font-size: 3.2vh;
@@ -157,18 +21,9 @@
   }
   
   .navSecund img{
-  
     height: 50px;
     width: 50px;
   
   }
   
-  #logoSecund{
-    margin-left: 4vw;
-    bottom: 5%;
-    width: 6vw;
-    position: fixed;
-    clear: both;
-  
-  }
   
