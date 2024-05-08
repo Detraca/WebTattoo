@@ -83,49 +83,49 @@
 						
 						<a href="">Tipo de Tatuaje</a>					
 						<select id="origen">
-							<option value="null" name="origen_vuelo">Indicar Tipo</option>
-							<optgroup class="canarias" label="Tipos">
-								<option value="VDE">No lo sé, necesito asesoramiento </option>
-								<option value="FUE">Old School (tradicional)</option>
-								<option value="LPA">Neo Tradicional</option>
-								<option value="GMZ">Realista</option>
-								<option value="SPC">Japonés</option>
-								<option value="ACE">Tribal</option>
-								<option value="TFN">Geométrico</option>
-								<option value="TFS">Gótico</option>
-								<option value="TFS">Otro</option>
+							<option value="null" name="origen_tipo">Indicar Tipo</option>
+							<optgroup class="tatuaje" label="Tipos">
+								<option value="1">No lo sé, necesito asesoramiento </option>
+								<option value="2">Old School (tradicional)</option>
+								<option value="3">Neo Tradicional</option>
+								<option value="4">Realista</option>
+								<option value="5">Japonés</option>
+								<option value="6">Tribal</option>
+								<option value="7">Geométrico</option>
+								<option value="8">Gótico</option>
+								<option value="9">Otro</option>
 							</optgroup>
 						
 						</select>
-						<select id="destino">
-							<option value="null" name="destino_vuelo">Indicar Zona </option>
-							<optgroup class="canarias" label="Zona del cuerpo">
-								<option value="VDE">Brazo</option>
-								<option value="FUE">Antebrazo</option>
-								<option value="LPA">Hombro</option>
-								<option value="GMZ">Mano</option>
-								<option value="SPC">Pierna</option>
-								<option value="ACE">Glúteo</option>
-								<option value="TFN">Tobillo</option>
-								<option value="TFS">Pie</option>
-								<option value="LPA">Espalda</option>
-								<option value="GMZ">Pecho</option>
-								<option value="SPC">Lumbar</option>
-								<option value="ACE">Costillas</option>
-								<option value="TFN">Barriga</option>
-								<option value="TFS">Cuello</option>
-								<option value="TFS">No lo sé, prefiero asesoramiento</option>
-								<option value="TFS">Otro</option>
+						<select id="origen">
+							<option value="null" name="origen_tipo">Indicar Zona </option>
+							<optgroup class="tatuaje" label="Zona del cuerpo">
+								<option value="1">Brazo</option>
+								<option value="2">Antebrazo</option>
+								<option value="3">Hombro</option>
+								<option value="4">Mano</option>
+								<option value="5">Pierna</option>
+								<option value="6">Glúteo</option>
+								<option value="7">Tobillo</option>
+								<option value="8">Pie</option>
+								<option value="9">Espalda</option>
+								<option value="10">Pecho</option>
+								<option value="11">Lumbar</option>
+								<option value="12">Costillas</option>
+								<option value="13">Barriga</option>
+								<option value="14">Cuello</option>
+								<option value="15">No lo sé, prefiero asesoramiento</option>
+								<option value="16">Otro</option>
 
 
 							</optgroup>
 						
 						</select>	
-						<label for="solo_ida">A color</label>
+						<label for="color">A color</label>
 						<input type="checkbox" name="ch_ida" id="solo_ida">	
-						<label for="solo_directos">Blanco /Negro</label>
+						<label for="color">Blanco /Negro</label>
 						<input type="checkbox" name="ch_directo" id="solo_directos">
-						<label for="solo_directos">Prefiero asesoramiento</label>
+						<label for="color">Prefiero asesoramiento</label>
 						<input type="checkbox" name="ch_directo" id="solo_directos">	
 					</fieldset>				
 					<fieldset for="fechas" id="fechas">
@@ -145,10 +145,10 @@
 						<select name="adulto" id="sel_tamano"> 
 							<option value="1" selected></option> <!--Con el selected dejo predeterminada esta opcion-->
 							<option selected value="-">-</option>
-							<option value="1">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje pequeño</option>
-							<option value="2">M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje mediano</option>
-							<option value="3">G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tatuaje grande</option>
-							<option value="4">?&nbsp;&nbsp;&nbsp;&nbsp;No lo sé, prefiero asesoramiento</option>
+							<option value="1">S--Tatuaje pequeño</option>
+							<option value="2">M--Tatuaje mediano</option>
+							<option value="3">G--Tatuaje grande</option>
+							<option value="4">?--No lo sé, prefiero asesoramiento</option>
 						</select>
 						<a href="paginaSecundariaBase.html">→ Galeria de ejemplos</a>
 						
@@ -172,7 +172,7 @@
 					
 				
 
-					<button type="" name="bt_buscar" value="Buscar" id="buscar">Solicita</button>	
+					<button type="" name="bt_solicita" value="solicita" id="solicita">Solicitar</button>	
 					
 				</form>	
 				</section>

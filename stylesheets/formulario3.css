@@ -6,12 +6,13 @@
     --colorBlack: #000000;
   }
   
+  /*section para contener formulario*/
   #presupuesto {
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width: 980px;
+    width: 1200px;
     height: 200px;
     color: var(--colorWhite);    
     font-family:"Titan One", system-ui;
@@ -22,70 +23,68 @@
 /* Formulario */
 form{
 	position:relative;	
-	height:330.4px;
-	/* no especifico un width, coge el de su padre, el section */
-	border:4px double  white;
+	height:340.4px;
+	border:4px double  #FFFFCC;
 	border-radius:50px;
-	
-	z-index: 1;	                             /*para colocarlo detrás del menú */
 }
 
 fieldset {
 	position:relative;
 	float: left;
-	/* bajo un poco el fieldset del formulario */
-	 margin-top: 10px; 
-	/* aplico padding solo en left y right */
-	padding: 0px 12px;	
-	/* importante darle tamaño */
+	margin-top: 20px; 
+	padding: 12px;	
 	height:250px;
-	width: 180px;
-	border-right:2px dotted white;
-	/*alineo todo a la derecha, todo lo que está en su interior*/
-	text-align: right;	        
+	width: 230px;
+	border-right:4px double  #FFFFCC;
+	text-align: left;	        
 }
 
 fieldset a , fieldset label{
 	display:inline-flex;
 }
 
+/*input alineado con label */
 fieldset input {	
-	vertical-align: middle;	     /* input alineado verticalmente con label */
+	vertical-align: middle;	     
 }
 
 #multiples_datos select, #fechas input {
 	margin: 4px 0;
 }
 
+/* se quital el borde derecho del último fieldset */
+
 #tipo_cliente {	
 	padding-top: 10px;
-	border-right: 0;                 /* quito el borde derecho de este fieldset */
+	border-right: 0;                 
 }
+
+	/* centrarlo con labelt*/
 
 #tipo_cliente input {
 	float:left;
 	clear:left;
-	/* para centrarlo con label, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
 	margin-top: 10px;   
 }
 
+ /*espacio entre el label y el input */
 #tipo_cliente label {
 	float: left;
-    margin-left: 2px;                  /*separo el label del input */
-	/* para centrarlo con input, ya que no funciona el vertical-align:middle al no estar primero label y luego input*/
+    margin-left: 2px;                  
 	margin-top: 7px;
 }
-
+/*tamaño del selector */
 #sel_tamano {
-	width: 50px;
-	margin-top: 5px;
+	
+	width: 200px;
+	margin-top: 10px;
 }
 
 select, #fecha, #hora {
 	position:relative;
 	height:40px;
 	width:190px;
-	font-family: "Titan One"; /* bold font-style mas grueso y otro bold font-weight negrita */
+	font-family: "Titan One"; 
 	color:#ffffff;
 	background:#666666;
 	border:2px solid #FFFFCC;
@@ -107,21 +106,16 @@ select, #fecha, #hora {
 }
 
 #cliente a {
-	padding-top: 8px;      /* separo los a de clientes */
+	padding-top: 8px;      
 }
 
-#sel_tamano {
-	height: 30px;	       /*la caja más pequeña de ese select concreto*/         
-	float:right;
-}
 
-#buscar {
+
+#solicita {
 	position: absolute;
-	/* le damos un tamaño */
-	width: 100px;
+	width: 150px;
 	height: 40px;
-	/* lo centro en altura */
-	top: 50%;
+	top: 80%;
 	transform: translate(0%, -50%);
 	border-radius: 8px;	
 	font-family: "Titan One";
@@ -135,6 +129,9 @@ select, #fecha, #hora {
 textarea {
     height:90px;
 	width: 190px; }
+
+
+/*estilo para clase "datos" especifica para los input nombre, email, telefono y caja de texto */	
 
  .datos {
 	/*height:40px;*/
@@ -150,7 +147,13 @@ textarea {
     font-family: "Titan One";
 
 }
-	
+
+h1{
+ 
+	float: inherit;
+	clear: left;
+
+}
     
 
 
