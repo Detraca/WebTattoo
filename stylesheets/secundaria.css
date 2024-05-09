@@ -1,27 +1,62 @@
 
+h2,p {
+  font-family: "Titan One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.2vw;
+}
+
 .navSecund{
-  height: 4vh;
-  position: fixed;
-  top:15%;
+  position: absolute;
+  height:8vh;
+  width: 100vw;
+  top:10%;
+  left: 20%; 
   border: none;
   z-index: 1;
 }
+
 .navSecund li{
-  width: 33%;
-  margin-left: 1%;
-  margin-right: 1%;
+  width: 45%; 
   height: inherit;
-  background-color: black;   
+  background-color: black;  
   color: var(--colorWhite);
   text-align: center;
   font-size: 3.2vh;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
-
 .navSecund img{
+  position:relative;
+  margin-top: 15%;
   height: 50px;
   width: 50px;
+}
 
+figure{
+  position: relative;
+  float:left;
+  top: 30%;
+  width: 50%;
+  height: 60vh;
+}
+
+figure img{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 2vw;
+}
+
+aside{
+  position: relative;
+  float:left;
+  width: 30%;
+  top: 30%;
+  color:var(--colorPurple);
+  text-align: center;  
+  margin-right: 5%;
+}
+
+aside p{
+  width: 100%;
+  margin-top: 20%;
 }
 

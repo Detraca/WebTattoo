@@ -299,9 +299,9 @@ nav ul li ul li {
   width:82%;
   margin:0 auto;  
   display: flex;  
-	transform: translate(2.6%, 0);
-  gap: 8px;
-  padding: 16px;
+	transform: translate(1.8%, 0);
+  gap: 0.3vw;
+  padding: 2vh;
   list-style: none;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;  
